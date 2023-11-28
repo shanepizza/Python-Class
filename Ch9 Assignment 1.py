@@ -5,7 +5,8 @@ def star_row(num_stars:int, justify:str, given_rows:int):
     b = ""
   #assign a fixed value (i.e. 20) to set the frame width. The default width is the number of rows. 
   #ex: 10 rows, 10 collumns  
-    used_rows = given_rows
+    used_rows = 20
+    #used_rows = given_rows
     
 #justify to the left
     if justify == "center":
